@@ -25,3 +25,6 @@ Technology covered here:
 #Result Extenders.
 #web api etc
 
+API Query Example:
+https://localhost:44355/api/applicant?$Select=name
+
