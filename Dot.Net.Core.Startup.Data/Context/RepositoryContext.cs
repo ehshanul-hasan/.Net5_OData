@@ -17,7 +17,7 @@ namespace Dot.Net.Core.Startup.Data.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseInMemoryDatabase("Hahn_Applicant").ConfigureWarnings(x => x.Ignore(InMemoryEventId.TransactionIgnoredWarning));
+            optionsBuilder.UseInMemoryDatabase("Demo_Applicant").ConfigureWarnings(x => x.Ignore(InMemoryEventId.TransactionIgnoredWarning));
             optionsBuilder.LogTo(Console.WriteLine);
 
         }
