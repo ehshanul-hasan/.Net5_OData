@@ -1,4 +1,4 @@
-# Dot.Net.Core.CRUD
+# Dot.Net.Core.ODATA
 
 The solution consistes of 3 projects.
 
